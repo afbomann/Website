@@ -11,3 +11,8 @@ nav {
     align-items: center;
     min-height: 8vh;
 }
+
+.logo {
+    color: white;
+    text-decoration: none;
+}
