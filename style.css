@@ -15,5 +15,6 @@ nav {
 .logo {
     color: white;
     text-decoration: none;
+    letter-spacing: 5px;
     font-size: 20px;
 }
