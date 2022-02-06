@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 120vh;
+}
+
+.navbar {
+    background-color: rgb(3, 101, 247);
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+.navbar ul li {
+    list-style: none;
+    position: relative;
+    left: 850px;
+    padding-right: 2%;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.logo-image {
+    height: 50px;
+    padding-left: 5%;
+}
+
+.navbar ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.HomeTop {
+
+}
+
+.HomeTopImage {
+    height: 700px;
+    width: 100%;
+}
+
+.HomeTopText {
+    font-size: 50px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    top: -550px;
+    text-align: center;
+    text-shadow: 0 0 20px black;
+}
+
+.OurServicesTitle {
+    position: relative;
+    text-align: center;
+}
+
+.OurServicesLongText {
+    position: relative;
+    text-align: center;
+}
+
+.OurServicesBox1Title {
+    position: relative;
+    left: 10%;
+    top: 35px;
+}
+
+.OurServicesBox1LongText {
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    top: 35px;
+    text-align: center;
+    width: 550px;
+}
+
+.OurServicesBox2Title {
+    position: relative;
+    left: 13%;
+    top: 135px;
+}
+
+.OurServicesBox2LongText {
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    top: 135px;
+    text-align: center;
+    width: 550px;
+}
+
+.OurServicesBox3Title {
+    position: relative;
+    left: 73%;
+    top: -235px;
+}
+
+.OurServicesBox3LongText {
+    display: inline-block;
+    position: relative;
+    left: 63%;
+    top: -235px;
+    text-align: center;
+    width: 550px;
+}
+
+.OurServicesBox4Title {
+    position: relative;
+    left: 69%;
+    top: -135px;
+}
+
+.OurServicesBox4LongText {
+    display: inline-block;
+    position: relative;
+    left: 63%;
+    top: -135px;
+    text-align: center;
+    width: 550px;
+}
